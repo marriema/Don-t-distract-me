@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="138dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="    Time remaining"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:background="@drawable/clock"
+        android:textColor="@color/gray"
+        android:layout_weight="0.83"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:text="I give up"
+        android:id="@+id/button"
+        android:textColor="@color/Purple"
+        android:background="@color/FloralWhite"
+        android:onClick="btnGiveUp"/>
+
+</LinearLayout>
+<!-- From: file:/Users/marriema/Desktop/Test/app/src/main/res/layout/timer.xml -->
