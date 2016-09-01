@@ -12,3 +12,10 @@ be immediately closed and his study will be ended.
 The backend service of app will continuously check background apps like acitivity motinor. Any time it find that a outside app like Facebook and Twitter
 is opened during study time, it will end that app process immediately and return to our own app's page which shows "You are being distracted. You have been 
 studying XX minutes". 
+
+Below are screenshots of this app.
+# Screenshots  
+![Alt text](/screenshots/pic1.png?raw=true "pic1")
+![Alt text](/screenshots/pic2.png?raw=true "pic2")
+![Alt text](/screenshots/pic3.png?raw=true "pic3")
+
