@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/type_what_you_want"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:id="@+id/btn_confirm"
+        android:layout_gravity="center_horizontal"
+        android:onClick="btn_confirm_pressed"
+        android:layout_weight="0.04"
+        android:textStyle="normal|italic"
+        android:textSize="25dp"
+        android:textColor="@color/Tomato" />
+</LinearLayout>

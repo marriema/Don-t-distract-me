@@ -1,0 +1,19 @@
+-keep class com.example.androidtest.MyApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.example.androidtest.Splash { <init>(); }
+-keep class com.example.androidtest.First { <init>(); }
+-keep class com.example.androidtest.Register { <init>(); }
+-keep class com.example.androidtest.Count { <init>(); }
+-keep class com.example.androidtest.Back { <init>(); }
+-keep class com.example.androidtest.Sign { <init>(); }
+-keep class com.example.androidtest.Account { <init>(); }
+-keep class com.example.androidtest.Graph { <init>(); }
+-keep class com.example.androidtest.ActivityList { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

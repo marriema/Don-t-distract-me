@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_width="wrap_content" android:layout_height="match_parent"
     android:weightSum="1"
     android:background="@color/white"
     android:orientation="vertical"
@@ -8,24 +8,88 @@
 
 
     <TextView
-        android:layout_width="350dp"
-        android:layout_height="138dp"
+        android:layout_width="334dp"
+        android:layout_height="172dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="    Time remaining"
         android:gravity="center"
         android:id="@+id/textView"
-        android:background="@drawable/clock"
         android:textColor="@color/gray"
-        android:layout_weight="0.83"
         android:textSize="35dp" />
 
-    <Button
-        android:layout_width="233dp"
-        android:layout_height="wrap_content"
-        android:text="I give up"
-        android:id="@+id/button"
-        android:textColor="@color/Purple"
-        android:background="@color/FloralWhite"
-        android:onClick="btnGiveUp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:background="@drawable/tree"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="visible"
+            android:layout_above="@+id/button"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_alignEnd="@+id/textView4" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:background="@drawable/tree"
+            android:visibility="visible"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_above="@+id/button" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5"
+            android:background="@drawable/tree"
+            android:visibility="visible"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_toRightOf="@+id/imageView4"
+            android:layout_above="@+id/button"
+            android:layout_alignRight="@+id/button"
+            android:layout_alignEnd="@+id/button" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:background="@drawable/tree"
+            android:visibility="visible"
+            android:layout_alignTop="@+id/imageView5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/button"
+            android:layout_toEndOf="@+id/button" />
+
+        <Button
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:text="I give up"
+            android:id="@+id/button"
+            android:textColor="@color/Purple"
+            android:background="@color/FloralWhite"
+            android:onClick="btnGiveUp"
+            android:layout_marginBottom="57dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trees"
+            android:id="@+id/textView4"
+            android:textSize="23dp"
+            android:layout_above="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
 
 </LinearLayout>

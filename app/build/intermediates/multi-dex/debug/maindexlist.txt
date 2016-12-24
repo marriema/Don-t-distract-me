@@ -1,0 +1,115 @@
+android/support/v7/view/menu/CascadingMenuPopup$HorizPosition.class
+
+-keep class com.example.androidtest.Splash { <init>(); }
+android/support/v4/internal/view/SupportMenuItem.class
+com/example/androidtest/DatabaseHelper.class
+android/support/v7/view/menu/SubMenuBuilder.class
+com/example/androidtest/R$id.class
+    void attachBaseContext(android.content.Context);
+android/support/v4/widget/CursorAdapter.class
+com/androidplot/xy/SimpleXYSeries$ArrayFormat.class
+android/support/v7/view/menu/ShowableListMenu.class
+com/example/androidtest/ActivityList$1.class
+android/support/v4/widget/SimpleCursorAdapter.class
+android/support/v4/view/MenuCompat.class
+android/support/v4/internal/view/SupportMenu.class
+com/androidplot/xy/XYGraphWidget.class
+android/support/v7/view/ActionMode$Callback.class
+android/support/v7/app/AppCompatDelegateImplBase.class
+com/jjoe64/graphview/series/Series.class
+android/support/v7/view/menu/CascadingMenuPopup.class
+android/support/v7/view/menu/MenuBuilder.class
+-keep class com.example.androidtest.Sign { <init>(); }
+com/example/androidtest/Register.class
+com/example/androidtest/R$layout.class
+android/support/v7/widget/MenuItemHoverListener.class
+com/androidplot/series/Series.class
+    *;
+com/example/androidtest/Back.class
+android/support/v7/view/menu/MenuBuilder$Callback.class
+android/support/v7/app/AppCompatDelegateImplV9.class
+android/support/v7/app/ActionBar.class
+-keep public class * extends android.app.backup.BackupAgent {
+android/support/v7/view/menu/MenuItemImpl.class
+com/androidplot/util/FontUtils.class
+com/example/androidtest/Splash.class
+com/jjoe64/graphview/series/BaseSeries.class
+com/example/androidtest/Account.class
+android/support/v7/widget/MenuPopupWindow.class
+com/example/androidtest/R$raw.class
+android/support/v7/app/ActionBar$Tab.class
+android/support/v4/app/FragmentManager.class
+android/support/v7/view/menu/CascadingMenuPopup$2.class
+android/support/v7/widget/LinearLayoutCompat$DividerMode.class
+com/jjoe64/graphview/series/LineGraphSeries.class
+com/example/androidtest/Count$1.class
+android/support/v4/widget/ResourceCursorAdapter.class
+-keep class com.example.androidtest.Back { <init>(); }
+android/support/v7/app/ActionBarDrawerToggle$Delegate.class
+-keep class com.example.androidtest.First { <init>(); }
+android/support/v7/app/ActionBar$DisplayOptions.class
+android/support/v7/view/menu/MenuAdapter.class
+android/support/v7/widget/LinearLayoutCompat$OrientationMode.class
+android/support/v7/graphics/drawable/DrawerArrowDrawable$ArrowDirection.class
+com/example/androidtest/Graph.class
+android/support/v4/app/FragmentTabHost.class
+com/androidplot/xy/XYPlot.class
+com/example/androidtest/Splash$1.class
+android/support/v4/app/NotificationCompat$Builder.class
+}
+com/example/androidtest/Count$2.class
+android/support/v7/widget/ViewUtils.class
+android/support/v7/app/AppCompatDelegateImplV11.class
+android/support/v7/widget/LinearLayoutCompat.class
+com/example/androidtest/R.class
+android/support/v7/app/AlertDialog$Builder.class
+android/support/v7/view/menu/CascadingMenuPopup$CascadingMenuInfo.class
+com/example/androidtest/Count.class
+android/support/v7/app/AppCompatDelegateImplV14.class
+android/support/v4/view/ViewCompat.class
+android/support/v7/app/ActionBarActivity.class
+android/support/v7/widget/LinearLayoutCompat$LayoutParams.class
+android/support/v7/graphics/drawable/DrawerArrowDrawable.class
+android/support/v7/app/ActionBar$OnNavigationListener.class
+android/support/v7/app/ActionBar$TabListener.class
+android/support/v7/app/AppCompatDelegateImplN.class
+-keep class com.example.androidtest.ActivityList { <init>(); }
+com/androidplot/ui/Formatter.class
+com/androidplot/xy/SimpleXYSeries.class
+android/support/v4/widget/DrawerLayout$DrawerListener.class
+android/support/v7/view/menu/CascadingMenuPopup$1.class
+android/support/v7/app/ActionBar$LayoutParams.class
+android/support/v7/widget/ActionMenuView$LayoutParams.class
+android/support/v7/app/ActionBar$NavigationMode.class
+-keep class com.example.androidtest.Count { <init>(); }
+com/androidplot/series/XYSeries.class
+android/support/v7/view/ActionMode.class
+com/example/androidtest/Sign.class
+-keep class com.example.androidtest.Graph { <init>(); }
+com/androidplot/xy/XYSeriesFormatter.class
+android/support/v7/app/AppCompatDelegate$NightMode.class
+-keep class com.example.androidtest.Register { <init>(); }
+com/androidplot/xy/LineAndPointFormatter.class
+android/support/v7/widget/TintTypedArray.class
+-keep public class * extends java.lang.annotation.Annotation {
+android/support/v7/app/AppCompatDelegateImplV23.class
+-keep class com.example.androidtest.MyApplication {
+com/example/androidtest/Back$1.class
+com/example/androidtest/ActivityList.class
+android/support/v4/view/GravityCompat.class
+com/androidplot/Plot.class
+android/support/v7/app/AppCompatCallback.class
+com/example/androidtest/First.class
+android/support/v7/widget/ListPopupWindow.class
+android/support/v4/graphics/drawable/DrawableCompat.class
+android/support/v7/view/menu/MenuPresenter$Callback.class
+android/support/v4/widget/SlidingPaneLayout.class
+android/support/v7/view/menu/MenuPopup.class
+android/support/v7/app/ActionBarDrawerToggle.class
+android/support/v7/app/ActionBar$OnMenuVisibilityListener.class
+com/example/androidtest/MyApplication.class
+    <init>();
+android/support/v7/app/AppCompatActivity.class
+android/support/v7/view/menu/MenuPresenter.class
+android/support/v7/app/AppCompatDelegate.class
+-keep class com.example.androidtest.Account { <init>(); }

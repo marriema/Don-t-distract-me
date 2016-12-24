@@ -12,11 +12,12 @@
     <string name="subtract">Subtract</string>
     <string name="marrie"></string>
     <string name="your_balance">Your Balance</string>
-    <string name="type_what_you_want">type what you want</string>
+    <string name="type_what_you_want">username</string>
+    <string name="password">password</string>
     <string name="what_s_your_name_">what\'s your name?</string>
     <string name="start">START</string>
-    <string name="_">“学习啦</string>
-    <string name="a">开始</string>
+    <string name="_">“study</string>
+    <string name="a">start</string>
     <string name="categrory">categrory</string>
     <string name="time">time</string>
     <string name="save">save</string>

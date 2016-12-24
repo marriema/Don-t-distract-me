@@ -6,6 +6,10 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 
+
+/**
+ * Created by Yanqing Ma on 11/1/2016.
+ */
 public class Splash extends Activity {
 	
 	MediaPlayer mp;
@@ -15,7 +19,8 @@ public class Splash extends Activity {
 		startActivity(intent);
 	}
 
-	
+
+	// when app starts, animation and background music automatically runs for two seconds
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);

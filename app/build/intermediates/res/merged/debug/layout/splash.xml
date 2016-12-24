@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
-        android:src="@drawable/ic_launcher" android:contentDescription="@string/marrie"/>
+        android:src="@drawable/ic_launcher" android:contentDescription="@string/app_name"/>
     
 
-</RelativeLayout><!-- From: file:/Users/marriema/Desktop/Test/app/src/main/res/layout/splash.xml -->
+</RelativeLayout><!-- From: file:/Users/marriema/Desktop/final/app/src/main/res/layout/splash.xml -->

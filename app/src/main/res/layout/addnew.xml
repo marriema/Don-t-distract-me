@@ -39,17 +39,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
-        <Spinner
-            android:id="@+id/spinner01"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" >
-
         <TextView
             android:id="@+id/Text02"
             android:layout_width="fill_parent"
@@ -79,36 +68,74 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
-
-        <Spinner
-            android:id="@+id/spinner02"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
         <Button
             android:id="@+id/save"
             android:layout_width="80dip"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_gravity="bottom"
             android:layout_marginLeft="80dip"
             android:text="@string/save"
             android:onClick="btnSavePressed"
-            android:visibility="visible" />
+            android:visibility="visible"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:centerColor = '#191EA8'
+
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#191EA8"
+
+            android:shadowRadius="5"/>
 
         <Button
             android:id="@+id/cancel"
             android:layout_width="80dip"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="40dip"
             android:text="@string/cancel"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:centerColor = '#191EA8'
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#191EA8"
+
+            android:shadowRadius="5"
             android:visibility="visible"
             android:onClick="btnCancelPressed"/>
     </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"></LinearLayout>
+
+    <TextView
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="hello"
+        android:id="@+id/textView3"
+        android:textColor="@color/Peru"
+        android:textSize="24dp"
+        android:textStyle="normal|italic" />
+
+    <Button
+
+        android:layout_width="120dip"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="0dip"
+        android:text="view account"
+        android:id="@+id/button3"
+        android:onClick="btnViewAccount"
+        android:textSize="19dp"
+        android:textColor="#ffebedf3"
+        android:background="@drawable/layout1"
+        android:shadowColor="#ffe44ec5"
+
+        />
 
 </LinearLayout>

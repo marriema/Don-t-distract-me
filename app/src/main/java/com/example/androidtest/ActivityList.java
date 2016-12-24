@@ -1,12 +1,8 @@
 package com.example.androidtest;
 
 /**
- * Created by marriema on 5/25/16.
+ * Created by marriema on 11/17/16.
  */
-
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 import android.app.ActivityManager;
 import android.app.ActivityManager.RecentTaskInfo;
@@ -14,7 +10,10 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.util.Log;
-import android.widget.Toast;
+
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class ActivityList extends Service{
 
@@ -23,6 +22,13 @@ public class ActivityList extends Service{
     private String lastTaskName;
 
     private Timer timer;
+
+
+    /**
+     * keep checking if current activity is my app. If not, it means user open other app, then immediately close it
+     * and go back to Failed page
+     *
+     */
     private TimerTask task = new TimerTask(){
 
         @Override

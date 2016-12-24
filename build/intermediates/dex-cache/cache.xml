@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/marriema/Desktop/Test/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/18.0.0/jars/classes.jar"
+        jar="/Users/marriema/Desktop/final/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="dafab6ae358e6c801605d50ff1fa761e77200c1a">
-        <dex dex="/Users/marriema/Desktop/Test/app/build/intermediates/pre-dexed/debug/classes-af7e4a388df0deba28cee4220aeaa4e11718cdb5.jar" />
-    </item>
-    <item
-        jar="/Users/marriema/Desktop/CS125-v001-mac-64bit/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="/Users/marriema/Desktop/Test/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-086f23165b0f138920880a2487c293efd4bc3824.jar" />
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/Users/marriema/Desktop/final/app/build/intermediates/pre-dexed/debug/classes-34ab84ad5017c8679636ca5773da2605b3e18e52.jar" />
     </item>
 
 </items>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="@drawable/black">
 
     <Button
         android:layout_width="match_parent"
@@ -10,6 +11,10 @@
         android:id="@+id/button2"
         android:layout_gravity="center_vertical"
         android:textStyle="bold|normal"
-        android:textSize="60dp" />
+        android:textSize="60dp"
+        android:textColor="#ffebedf3"
+        android:background="@drawable/layout2"
+        android:shadowColor="#ffefa8e0"
+       />
 </LinearLayout>
-<!-- From: file:/Users/marriema/Desktop/Test/app/src/main/res/layout/fail.xml -->
+<!-- From: file:/Users/marriema/Desktop/final/app/src/main/res/layout/fail.xml -->

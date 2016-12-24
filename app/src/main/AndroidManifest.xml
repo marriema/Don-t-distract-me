@@ -5,15 +5,17 @@
     android:versionName="1.0" >
 
 
+
     <uses-permission android:name="android.permission.GET_TASKS" />
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="17" />
+
 
     <application
         android:name="MyApplication"
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
@@ -31,10 +33,6 @@
             android:parentActivityName=".Register"
             android:exported="false">
         </activity>
-
-        <service android:name="com.example.androidtest.ActivityList" android:enabled="true" android:exported="true">
-
-        </service>
 
         <activity
             android:name=".Register"
@@ -55,6 +53,28 @@
             android:exported="false">
         </activity>
 
+        <activity
+            android:name=".Sign"
+            android:label="@string/app_name"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".Account"
+            android:label="@string/app_name"
+            android:exported="false">
+        </activity>
+
+
+        <activity
+            android:name=".Graph"
+            android:label="@string/app_name"
+            android:exported="false">
+        </activity>
+
+        <service android:name="com.example.androidtest.ActivityList" android:enabled="true" android:exported="true">
+
+        </service>
 
     </application>
 

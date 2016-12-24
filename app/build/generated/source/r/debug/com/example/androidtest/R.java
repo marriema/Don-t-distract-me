@@ -290,47 +290,71 @@ containing a value of this type.
     }
     public static final class drawable {
         public static final int back=0x7f020000;
-        public static final int circular=0x7f020001;
-        public static final int clock=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int ic_tab_name_selected=0x7f020004;
-        public static final int ic_tab_name_unselected=0x7f020005;
-        public static final int ic_tab_s_selected=0x7f020006;
-        public static final int ic_tab_s_unselected=0x7f020007;
-        public static final int study=0x7f020008;
-        public static final int xueba=0x7f020009;
+        public static final int black=0x7f020001;
+        public static final int buttonshape=0x7f020002;
+        public static final int circular=0x7f020003;
+        public static final int download=0x7f020004;
+        public static final int front=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int ic_tab_s_selected=0x7f020007;
+        public static final int ic_tab_s_unselected=0x7f020008;
+        public static final int layout1=0x7f020009;
+        public static final int layout2=0x7f02000a;
+        public static final int layout3=0x7f02000b;
+        public static final int layout4=0x7f02000c;
+        public static final int stat=0x7f02000d;
+        public static final int study=0x7f02000e;
+        public static final int tree=0x7f02000f;
     }
     public static final class id {
-        public static final int EditText01=0x7f0a0016;
-        public static final int Text02=0x7f0a0015;
+        public static final int EditText01=0x7f0a0015;
+        public static final int Text02=0x7f0a0014;
         public static final int alignBounds=0x7f0a0002;
         public static final int alignMargins=0x7f0a0003;
         public static final int bottom=0x7f0a0004;
-        public static final int button=0x7f0a001f;
+        public static final int btn_confirm=0x7f0a0024;
+        public static final int btn_sign_up=0x7f0a001f;
+        public static final int button=0x7f0a0027;
         public static final int button2=0x7f0a001a;
-        public static final int cancel=0x7f0a0019;
+        public static final int button3=0x7f0a0019;
+        public static final int button4=0x7f0a0031;
+        public static final int cancel=0x7f0a0017;
         public static final int center=0x7f0a0005;
         public static final int center_horizontal=0x7f0a0006;
         public static final int center_vertical=0x7f0a0007;
         public static final int clip_horizontal=0x7f0a0008;
         public static final int clip_vertical=0x7f0a0009;
         public static final int detail=0x7f0a0013;
+        public static final int editText=0x7f0a001c;
         public static final int editText1=0x7f0a001b;
+        public static final int editText2=0x7f0a0022;
+        public static final int editText3=0x7f0a0023;
+        public static final int editText4=0x7f0a002d;
+        public static final int editText5=0x7f0a002e;
+        public static final int editText6=0x7f0a002f;
+        public static final int editText7=0x7f0a0030;
         public static final int end=0x7f0a000a;
         public static final int fill=0x7f0a000b;
         public static final int fill_horizontal=0x7f0a000c;
         public static final int fill_vertical=0x7f0a000d;
-        public static final int first_enter=0x7f0a001c;
+        public static final int first_enter=0x7f0a001d;
         public static final int horizontal=0x7f0a0000;
-        public static final int imageView1=0x7f0a001d;
+        public static final int imageView=0x7f0a002b;
+        public static final int imageView1=0x7f0a0025;
+        public static final int imageView2=0x7f0a0026;
+        public static final int imageView4=0x7f0a0029;
+        public static final int imageView5=0x7f0a002a;
         public static final int left=0x7f0a000e;
-        public static final int menu_settings=0x7f0a0020;
+        public static final int menu_settings=0x7f0a0032;
+        public static final int mySimpleXYPlot=0x7f0a0021;
         public static final int right=0x7f0a000f;
-        public static final int save=0x7f0a0018;
-        public static final int spinner01=0x7f0a0014;
-        public static final int spinner02=0x7f0a0017;
+        public static final int save=0x7f0a0016;
         public static final int start=0x7f0a0010;
-        public static final int textView=0x7f0a001e;
+        public static final int textView=0x7f0a0020;
+        public static final int textView2=0x7f0a001e;
+        public static final int textView3=0x7f0a0018;
+        public static final int textView4=0x7f0a0028;
+        public static final int textView5=0x7f0a002c;
         public static final int title=0x7f0a0012;
         public static final int top=0x7f0a0011;
         public static final int vertical=0x7f0a0001;
@@ -339,8 +363,11 @@ containing a value of this type.
         public static final int addnew=0x7f030000;
         public static final int fail=0x7f030001;
         public static final int first=0x7f030002;
-        public static final int splash=0x7f030003;
-        public static final int timer=0x7f030004;
+        public static final int graph=0x7f030003;
+        public static final int signuppage=0x7f030004;
+        public static final int splash=0x7f030005;
+        public static final int timer=0x7f030006;
+        public static final int viewaccount=0x7f030007;
     }
     public static final class menu {
         public static final int activity_main=0x7f090000;
@@ -364,13 +391,14 @@ containing a value of this type.
         public static final int marrie=0x7f08000b;
         public static final int menu_settings=0x7f08000c;
         public static final int mins=0x7f08000d;
-        public static final int save=0x7f08000e;
-        public static final int start=0x7f08000f;
-        public static final int subtract=0x7f080010;
-        public static final int time=0x7f080011;
-        public static final int type_what_you_want=0x7f080012;
-        public static final int what_s_your_name_=0x7f080013;
-        public static final int your_balance=0x7f080014;
+        public static final int password=0x7f08000e;
+        public static final int save=0x7f08000f;
+        public static final int start=0x7f080010;
+        public static final int subtract=0x7f080011;
+        public static final int time=0x7f080012;
+        public static final int type_what_you_want=0x7f080013;
+        public static final int what_s_your_name_=0x7f080014;
+        public static final int your_balance=0x7f080015;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
